@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JSButton_Example' do
+  pod 'JSButton', :path => '../'
+
+  target 'JSButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
