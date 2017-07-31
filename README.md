@@ -8,7 +8,7 @@
 [![Twitter](https://img.shields.io/badge/twitter-@imjog24-blue.svg?style=flat)](https://twitter.com/imjog24)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-<img src="https://github.com/imjog/JSButton/blob/master/Example/JSLabel/screen.png" width="300"> <img src="https://github.com/imjog/JSButton/blob/master/Example/JSLabel/blinkscreen.png" width="300">
+<img src="https://github.com/imjog/JSButton/blob/master/Example/jsbuttonss.png" width="300">
 
 ## Demo
 
@@ -65,12 +65,12 @@ IB Designables: Failed to render instance of JSLabel: Failed to load designables
 - Set the `module` property to `JSLabel`.
 
 <img
-src='https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/setclass.png' width='260' alt='Add JsLabel to storyboard'>
+src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttonclass.png' width='260' alt='Add JsLabel to storyboard'>
 
 - Customize the view properties in the attributes inspector.
 
 <img
-src='https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/inspactable.png' width='360' alt='Attributes inspector'>
+src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttondesignable.png' width='360' alt='Attributes inspector'>
 
 ## Author
 
