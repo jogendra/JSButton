@@ -1,0 +1,16 @@
+PODS:
+  - JSButton (0.1.0)
+
+DEPENDENCIES:
+  - JSButton (from `../`)
+
+EXTERNAL SOURCES:
+  JSButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JSButton: 6eb8fc1251a39d9480f8ac3736e12641d1ac7227
+
+PODFILE CHECKSUM: d9ac01b07ccf92164651b86fef1e4c83ce2ce780
+
+COCOAPODS: 1.2.1

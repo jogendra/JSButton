@@ -1,0 +1,6 @@
+framework module JSButton {
+  umbrella header "JSButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

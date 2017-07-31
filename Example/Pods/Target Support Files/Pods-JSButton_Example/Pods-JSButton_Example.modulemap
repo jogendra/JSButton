@@ -1,0 +1,6 @@
+framework module Pods_JSButton_Example {
+  umbrella header "Pods-JSButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
