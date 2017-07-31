@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40EE60751F2FB96000A37DEB /* jsbuttonss.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EE60721F2FB96000A37DEB /* jsbuttonss.png */; };
+		40EE60761F2FB96000A37DEB /* jsbuttondesignable.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EE60731F2FB96000A37DEB /* jsbuttondesignable.png */; };
+		40EE60771F2FB96000A37DEB /* jsbuttonclass.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EE60741F2FB96000A37DEB /* jsbuttonclass.png */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,7 +32,10 @@
 
 /* Begin PBXFileReference section */
 		11DA007B2081FEBDBA6D5E78 /* Pods-JSButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSButton_Example/Pods-JSButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4667B115ABD0E340100C46AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		40EE60721F2FB96000A37DEB /* jsbuttonss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jsbuttonss.png; path = Tests/jsbuttonss.png; sourceTree = "<group>"; };
+		40EE60731F2FB96000A37DEB /* jsbuttondesignable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jsbuttondesignable.png; path = Tests/jsbuttondesignable.png; sourceTree = "<group>"; };
+		40EE60741F2FB96000A37DEB /* jsbuttonclass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jsbuttonclass.png; path = Tests/jsbuttonclass.png; sourceTree = "<group>"; };
+		4667B115ABD0E340100C46AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JSButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +46,13 @@
 		607FACE51AFB9204008FA782 /* JSButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		66A72BD66CE4588C54BF18B0 /* JSButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSButton.podspec; path = ../JSButton.podspec; sourceTree = "<group>"; };
+		66A72BD66CE4588C54BF18B0 /* JSButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JSButton.podspec; path = ../JSButton.podspec; sourceTree = "<group>"; };
 		6907CC8D4845E588AC4F9E02 /* Pods_JSButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9081D2BA067E21F53EE878 /* Pods-JSButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSButton_Tests/Pods-JSButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8ECA98DBDA99EFCB99686703 /* Pods-JSButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSButton_Example/Pods-JSButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9671A39422C5F112CF4704BF /* Pods-JSButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSButton_Tests/Pods-JSButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9ABEE6DF89F5889D82D85532 /* Pods_JSButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C176FE732CC636715A12882B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C176FE732CC636715A12882B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +75,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40EE60781F2FB97700A37DEB /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				40EE60721F2FB96000A37DEB /* jsbuttonss.png */,
+				40EE60731F2FB96000A37DEB /* jsbuttondesignable.png */,
+				40EE60741F2FB96000A37DEB /* jsbuttonclass.png */,
+			);
+			name = Screenshot;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				40EE60781F2FB97700A37DEB /* Screenshot */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for JSButton */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -248,9 +265,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EE60751F2FB96000A37DEB /* jsbuttonss.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				40EE60761F2FB96000A37DEB /* jsbuttondesignable.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				40EE60771F2FB96000A37DEB /* jsbuttonclass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,11 @@
 		0DC807ABBC64F9DAE661B9079F06BDF2 /* JSButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 528402F5410737D19027702859FB0A5F /* JSButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		120552C1551D36A10D76551EE2BD9EDB /* Pods-JSButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E16A6E87F38323DEE92E8CCD1A9176 /* Pods-JSButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36B144EDA1ADACB8A60E0D28CD0FC698 /* Pods-JSButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E8B2055A842F46F0D5341ED76AEBA6 /* Pods-JSButton_Tests-dummy.m */; };
-		435E7880E1507F78EDDAF8AFAD08A579 /* JSButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7985007F6CC65E3C9C883E7163955049 /* JSButton-dummy.m */; };
-		4877E194C37E6F7C94B36314D02984C3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EB4C9F48774D789D57813ABAA0873C /* ReplaceMe.swift */; };
 		4C2161CFAA4E7458E45EDF6A8FE89F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		62DA648EE7518AFB4AC49FEBACCDB637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8AF7296C88FE9B2BCB6B05F7A40627B2 /* JSButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7985007F6CC65E3C9C883E7163955049 /* JSButton-dummy.m */; };
 		BEF78A27FE807173507D8378E544E35F /* Pods-JSButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C63056B0C8B403D47844811B0346ED04 /* Pods-JSButton_Example-dummy.m */; };
+		C9388FDFF9F72E51DB41940C8A588A6D /* JSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4766603B7A1E6E902A4100F7E144F9D2 /* JSButton.swift */; };
 		F3D70A393B48EAE20D22B978622D0FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FE7558BAC8003CFED8C44EA39B139177 /* Pods-JSButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 388D1E6D497C4237003B3FAF96CEA0C7 /* Pods-JSButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -38,6 +38,7 @@
 		388D1E6D497C4237003B3FAF96CEA0C7 /* Pods-JSButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3F1BA3365F151035A620EE16BBE506C4 /* Pods-JSButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		46B6B99B96907777C86B6BE858E02A74 /* Pods-JSButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4766603B7A1E6E902A4100F7E144F9D2 /* JSButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSButton.swift; sourceTree = "<group>"; };
 		528402F5410737D19027702859FB0A5F /* JSButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSButton-umbrella.h"; sourceTree = "<group>"; };
 		588A33E209CE4B48E54228378AF3627A /* Pods-JSButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		5A3CFDBB9BF8E7D2720543F71189EC7A /* JSButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSButton.xcconfig; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		788B452696C30788286BF37157F034DC /* Pods-JSButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7985007F6CC65E3C9C883E7163955049 /* JSButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSButton-dummy.m"; sourceTree = "<group>"; };
 		81E8B2055A842F46F0D5341ED76AEBA6 /* Pods-JSButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		85EB4C9F48774D789D57813ABAA0873C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		86E16A6E87F38323DEE92E8CCD1A9176 /* Pods-JSButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC2E93AD94D8140B6F16F36CC372F706 /* Pods-JSButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		4B05C09536337FC1AB3EA9972BE9E6E4 /* JSButton */ = {
 			isa = PBXGroup;
 			children = (
-				83437BBD14D91BCB0239D0173CE6F60B /* Classes */,
+				90871D263F051714A808F18663DD263A /* Classes */,
 			);
 			name = JSButton;
 			path = JSButton;
@@ -126,10 +126,10 @@
 			);
 			sourceTree = "<group>";
 		};
-		83437BBD14D91BCB0239D0173CE6F60B /* Classes */ = {
+		90871D263F051714A808F18663DD263A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				85EB4C9F48774D789D57813ABAA0873C /* ReplaceMe.swift */,
+				4766603B7A1E6E902A4100F7E144F9D2 /* JSButton.swift */,
 			);
 			name = Classes;
 			path = Classes;
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B071F1AF328A9E4A4BAEAA493B71297F /* Build configuration list for PBXNativeTarget "JSButton" */;
 			buildPhases = (
-				01DB0FCF4A552455BB32EE2AD62A1C23 /* Sources */,
+				1EE02D2A2481F00AB21A9D3B5AF1DC6F /* Sources */,
 				94EF6610844811C1E6F0D33D0030145E /* Frameworks */,
 				4FFCCD13442B5C6D37E3A3BAE99B2234 /* Headers */,
 			);
@@ -335,12 +335,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01DB0FCF4A552455BB32EE2AD62A1C23 /* Sources */ = {
+		1EE02D2A2481F00AB21A9D3B5AF1DC6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435E7880E1507F78EDDAF8AFAD08A579 /* JSButton-dummy.m in Sources */,
-				4877E194C37E6F7C94B36314D02984C3 /* ReplaceMe.swift in Sources */,
+				8AF7296C88FE9B2BCB6B05F7A40627B2 /* JSButton-dummy.m in Sources */,
+				C9388FDFF9F72E51DB41940C8A588A6D /* JSButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
