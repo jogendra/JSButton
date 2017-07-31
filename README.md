@@ -31,7 +31,7 @@ open JSButton.xcworkspace
 
 ## Installation
 
-JSLabel is available through [CocoaPods](http://cocoapods.org). To install
+JSButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -47,7 +47,7 @@ Just drag the `JSButton.swift` files into your project.
 
 ```
 IB Designables: Failed to update auto layout status: Failed to load designables from path (null)
-IB Designables: Failed to render instance of JSLabel: Failed to load designables from path (null)
+IB Designables: Failed to render instance of JSButton: Failed to load designables from path (null)
 ```
 
 ...then you are likely using `JSButton` as a static library, which does not support IB annotations. Some workarounds include:
@@ -62,10 +62,10 @@ IB Designables: Failed to render instance of JSLabel: Failed to load designables
 
 - Or drag a **Button** from object library and then change it's `class` to `JSButton` in identity inspector.
 
-- Set the `module` property to `JSLabel`.
+- Set the `module` property to `JSButton`.
 
 <img
-src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttonclass.png' width='260' alt='Add JsLabel to storyboard'>
+src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttonclass.png' width='260' alt='Add JSButton to storyboard'>
 
 - Customize the view properties in the attributes inspector.
 
@@ -89,4 +89,4 @@ Jogendra Singh, jogendra.singh.jog@gmail.com
 
 ## License
 
-JSLabel is available under the MIT license. See the LICENSE file for more info.
+JSButton is available under the MIT license. See the LICENSE file for more info.
