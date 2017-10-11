@@ -17,9 +17,9 @@ $ pod try JSButton
 ...or clone this repo and build and run/test the `JSButton` project in Xcode to see `JSButton` in action. If you don't have [CocoaPods](http://cocoapods.org) installed, grab it with `[sudo] gem install cocoapods`.
 
 ```bash
-cd Example
-pod install
-open JSButton.xcworkspace
+$ cd Example
+$ pod install
+$ open JSButton.xcworkspace
 ```
 
 ## Requirements
