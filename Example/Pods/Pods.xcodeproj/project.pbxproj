@@ -31,9 +31,9 @@
 
 /* Begin PBXFileReference section */
 		0A1F417D2B17255FE8B2C49C8235C344 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C7F2D583A7515E1843ACC93AC07FBDA /* Pods_JSButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSButton_Example.framework; path = "Pods-JSButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7F2D583A7515E1843ACC93AC07FBDA /* Pods_JSButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22008CB16C4BB7BD8D5C3B5D42DB73FF /* Pods-JSButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSButton_Example-resources.sh"; sourceTree = "<group>"; };
-		26A45CDF06B6966CA7AF8583AABA6412 /* JSButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSButton.modulemap; sourceTree = "<group>"; };
+		26A45CDF06B6966CA7AF8583AABA6412 /* JSButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JSButton.modulemap; sourceTree = "<group>"; };
 		2D6D7C58F20AE48B8600E501AB6AD13E /* JSButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSButton-prefix.pch"; sourceTree = "<group>"; };
 		388D1E6D497C4237003B3FAF96CEA0C7 /* Pods-JSButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSButton_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3F1BA3365F151035A620EE16BBE506C4 /* Pods-JSButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		528402F5410737D19027702859FB0A5F /* JSButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSButton-umbrella.h"; sourceTree = "<group>"; };
 		588A33E209CE4B48E54228378AF3627A /* Pods-JSButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		5A3CFDBB9BF8E7D2720543F71189EC7A /* JSButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSButton.xcconfig; sourceTree = "<group>"; };
-		6066EFD062F0F4E51C206A0031D68F96 /* Pods-JSButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSButton_Example.modulemap"; sourceTree = "<group>"; };
+		6066EFD062F0F4E51C206A0031D68F96 /* Pods-JSButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSButton_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70335F156BB3FA57D59C2FB973740A24 /* Pods-JSButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73DFF6A88F934217273609E38D47CBB1 /* Pods-JSButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -51,13 +51,13 @@
 		7985007F6CC65E3C9C883E7163955049 /* JSButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSButton-dummy.m"; sourceTree = "<group>"; };
 		81E8B2055A842F46F0D5341ED76AEBA6 /* Pods-JSButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		86E16A6E87F38323DEE92E8CCD1A9176 /* Pods-JSButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC2E93AD94D8140B6F16F36CC372F706 /* Pods-JSButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C63056B0C8B403D47844811B0346ED04 /* Pods-JSButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSButton_Example-dummy.m"; sourceTree = "<group>"; };
-		D28220CE45B9EC8D99B28C18BA3A828F /* JSButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSButton.framework; path = JSButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28220CE45B9EC8D99B28C18BA3A828F /* JSButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3081D7DBF2011EC7ED1A66889BDC44A /* Pods-JSButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E13D55DF1EB2265D1B84762F2035209D /* Pods-JSButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSButton_Tests.modulemap"; sourceTree = "<group>"; };
-		E4045D3ADB30C228104474113FC94476 /* Pods_JSButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSButton_Tests.framework; path = "Pods-JSButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13D55DF1EB2265D1B84762F2035209D /* Pods-JSButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JSButton_Tests.modulemap"; sourceTree = "<group>"; };
+		E4045D3ADB30C228104474113FC94476 /* Pods_JSButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83F98441444335229F9C8B6A111D462 /* Pods-JSButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSButton_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EF7CDA621CACFFF3A1A5511041CB52FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFB6B40B6F77A16E951BEF1FF3065B35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,7 +111,6 @@
 			children = (
 				90871D263F051714A808F18663DD263A /* Classes */,
 			);
-			name = JSButton;
 			path = JSButton;
 			sourceTree = "<group>";
 		};
@@ -131,7 +130,6 @@
 			children = (
 				4766603B7A1E6E902A4100F7E144F9D2 /* JSButton.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -313,7 +311,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					4745B3898B5C2E4C91B7E8F336B79752 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -438,7 +441,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -455,7 +458,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -463,15 +468,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -503,7 +514,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -511,14 +524,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -532,6 +551,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -675,7 +695,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
