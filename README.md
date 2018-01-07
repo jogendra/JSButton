@@ -1,6 +1,4 @@
 # JSButton
-
-[![CI Status](http://img.shields.io/travis/imjog/JSButton.svg?style=flat)](https://travis-ci.org/imjog/JSButton)
 [![Version](https://img.shields.io/cocoapods/v/JSButton.svg?style=flat)](http://cocoapods.org/pods/JSButton)
 [![License](https://img.shields.io/cocoapods/l/JSButton.svg?style=flat)](http://cocoapods.org/pods/JSButton)
 [![Platform](https://img.shields.io/cocoapods/p/JSButton.svg?style=flat)](http://cocoapods.org/pods/JSButton)
@@ -8,20 +6,20 @@
 [![Twitter](https://img.shields.io/badge/twitter-@imjog24-blue.svg?style=flat)](https://twitter.com/imjog24)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-<img src="https://github.com/imjog/JSButton/blob/master/Example/JSLabel/screen.png" width="300"> <img src="https://github.com/imjog/JSButton/blob/master/Example/JSLabel/blinkscreen.png" width="300">
+<img src="https://github.com/imjog/JSButton/blob/master/Example/jsbuttonss.png" width="300">
 
 ## Demo
 
 ```bash
-pod try JSButton
+$ pod try JSButton
 ```
 
 ...or clone this repo and build and run/test the `JSButton` project in Xcode to see `JSButton` in action. If you don't have [CocoaPods](http://cocoapods.org) installed, grab it with `[sudo] gem install cocoapods`.
 
 ```bash
-cd Example
-pod install
-open JSButton.xcworkspace
+$ cd Example
+$ pod install
+$ open JSButton.xcworkspace
 ```
 
 ## Requirements
@@ -31,11 +29,11 @@ open JSButton.xcworkspace
 
 ## Installation
 
-JSLabel is available through [CocoaPods](http://cocoapods.org). To install
+JSButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "JSButton"
+$ pod "JSButton"
 ```
 ### Manual Installation
 
@@ -47,7 +45,7 @@ Just drag the `JSButton.swift` files into your project.
 
 ```
 IB Designables: Failed to update auto layout status: Failed to load designables from path (null)
-IB Designables: Failed to render instance of JSLabel: Failed to load designables from path (null)
+IB Designables: Failed to render instance of JSButton: Failed to load designables from path (null)
 ```
 
 ...then you are likely using `JSButton` as a static library, which does not support IB annotations. Some workarounds include:
@@ -62,15 +60,15 @@ IB Designables: Failed to render instance of JSLabel: Failed to load designables
 
 - Or drag a **Button** from object library and then change it's `class` to `JSButton` in identity inspector.
 
-- Set the `module` property to `JSLabel`.
+- Set the `module` property to `JSButton`.
 
 <img
-src='https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/setclass.png' width='260' alt='Add JsLabel to storyboard'>
+src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttonclass.png' width='260' alt='Add JSButton to storyboard'>
 
 - Customize the view properties in the attributes inspector.
 
 <img
-src='https://github.com/imjog/JSLabel/blob/master/Example/JSLabel/inspactable.png' width='360' alt='Attributes inspector'>
+src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttondesignable.png' width='360' alt='Attributes inspector'>
 
 ## Author
 
@@ -89,4 +87,4 @@ Jogendra Singh, jogendra.singh.jog@gmail.com
 
 ## License
 
-JSLabel is available under the MIT license. See the LICENSE file for more info.
+JSButton is available under the MIT license. See the LICENSE file for more info.

@@ -227,16 +227,28 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
+<<<<<<< HEAD
+				LastUpgradeCheck = 0920;
+=======
 				LastUpgradeCheck = 0900;
+>>>>>>> ac2a8c914032f07fc0906984bb6ff1d0e2d884be
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+<<<<<<< HEAD
+						LastSwiftMigration = 0920;
+					};
+					607FACE41AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0920;
+=======
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+>>>>>>> ac2a8c914032f07fc0906984bb6ff1d0e2d884be
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -310,10 +322,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSButton_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B923660A184D1E9A1D608CF3 /* [CP] Copy Pods Resources */ = {
@@ -541,7 +554,10 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+=======
+>>>>>>> ac2a8c914032f07fc0906984bb6ff1d0e2d884be
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -556,7 +572,10 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+=======
+>>>>>>> ac2a8c914032f07fc0906984bb6ff1d0e2d884be
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -574,7 +593,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+=======
+>>>>>>> ac2a8c914032f07fc0906984bb6ff1d0e2d884be
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -588,6 +610,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+=======
+>>>>>>> ac2a8c914032f07fc0906984bb6ff1d0e2d884be
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
