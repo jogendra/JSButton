@@ -14,6 +14,8 @@ public class JSButton: UIButton {
     var direction: FromDirection = .Left
     var alphaBefore: CGFloat = 1
     
+    var action: (() -> ())?
+    
     @IBInspectable var animate: Bool = false
     @IBInspectable var animateDelay: Double = 0.2
     @IBInspectable var animateFrom: Int {
@@ -121,5 +123,15 @@ public class JSButton: UIButton {
             layer.endPoint = CGPoint(x: 0, y: 1)
         }
     }
+    
+    // MARK: Add Target to Button
+    private func addTargetToButton() {
+        addTarget(self, action: #selector(touchUpInside), for: .touchUpInside)
+    }
+    
+    @objc private func touchUpInside() {
+        action?()
+    }
 
 }
+
