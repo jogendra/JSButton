@@ -1,5 +1,5 @@
 PODS:
-  - JSButton (0.1.0)
+  - JSButton (1.0.0)
 
 DEPENDENCIES:
   - JSButton (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JSButton: 87597fe538b5ef51ed0512aabe90807f9251a7f6
+  JSButton: d3039caa1a989c4103336f5a6746bdb45d8b8e08
 
 PODFILE CHECKSUM: d9ac01b07ccf92164651b86fef1e4c83ce2ce780
 
