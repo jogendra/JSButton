@@ -132,6 +132,150 @@ public class JSButton: UIButton {
     @objc private func touchUpInside() {
         action?()
     }
+    
+    // MARK: Set Images and Color For Different States
+    
+    /// JSButton: Image of disabled state for button; also inspectable from Storyboard
+    @IBInspectable public var imageForDisabled: UIImage? {
+        get {
+            return image(for: .disabled)
+        }
+        set {
+            setImage(newValue, for: .disabled)
+        }
+    }
+    
+    /// JSButton: Image of highlighted state for button; also inspectable from Storyboard.
+    @IBInspectable public var imageForHighlighted: UIImage? {
+        get {
+            return image(for: .highlighted)
+        }
+        set {
+            setImage(newValue, for: .highlighted)
+        }
+    }
+    
+    /// JSButton: Image of normal state for button; also inspectable from Storyboard.
+    @IBInspectable public var imageForNormal: UIImage? {
+        get {
+            return image(for: .normal)
+        }
+        set {
+            setImage(newValue, for: .normal)
+        }
+    }
+    
+    /// JSButton: Image of selected state for button; also inspectable from Storyboard.
+    @IBInspectable public var imageForSelected: UIImage? {
+        get {
+            return image(for: .selected)
+        }
+        set {
+            setImage(newValue, for: .selected)
+        }
+    }
+    
+    /// JSButton: Title color of disabled state for button; also inspectable from Storyboard.
+    @IBInspectable public var titleColorForDisabled: UIColor? {
+        get {
+            return titleColor(for: .disabled)
+        }
+        set {
+            setTitleColor(newValue, for: .disabled)
+        }
+    }
+    
+    /// JSButton: Title color of highlighted state for button; also inspectable from Storyboard.
+    @IBInspectable public var titleColorForHighlighted: UIColor? {
+        get {
+            return titleColor(for: .highlighted)
+        }
+        set {
+            setTitleColor(newValue, for: .highlighted)
+        }
+    }
+    
+    /// JSButton: Title color of normal state for button; also inspectable from Storyboard.
+    @IBInspectable public var titleColorForNormal: UIColor? {
+        get {
+            return titleColor(for: .normal)
+        }
+        set {
+            setTitleColor(newValue, for: .normal)
+        }
+    }
+    
+    /// JSButton: Title color of selected state for button; also inspectable from Storyboard.
+    @IBInspectable public var titleColorForSelected: UIColor? {
+        get {
+            return titleColor(for: .selected)
+        }
+        set {
+            setTitleColor(newValue, for: .selected)
+        }
+    }
+    
+    /// JSButton: Title of disabled state for button; also inspectable from Storyboard.
+    @IBInspectable public var titleForDisabled: String? {
+        get {
+            return title(for: .disabled)
+        }
+        set {
+            setTitle(newValue, for: .disabled)
+        }
+    }
+    
+    /// JSButton: Title of highlighted state for button; also inspectable from Storyboard.
+    @IBInspectable public var titleForHighlighted: String? {
+        get {
+            return title(for: .highlighted)
+        }
+        set {
+            setTitle(newValue, for: .highlighted)
+        }
+    }
+    
+    /// JSButton: Title of normal state for button; also inspectable from Storyboard.
+    @IBInspectable public var titleForNormal: String? {
+        get {
+            return title(for: .normal)
+        }
+        set {
+            setTitle(newValue, for: .normal)
+        }
+    }
+    
+    /// JSButton: Title of selected state for button; also inspectable from Storyboard.
+    @IBInspectable public var titleForSelected: String? {
+        get {
+            return title(for: .selected)
+        }
+        set {
+            setTitle(newValue, for: .selected)
+        }
+    }
+    
+}
 
+public extension JSButton {
+    
+    private var states: [UIControlState] {
+        return [.normal, .selected, .highlighted, .disabled]
+    }
+    
+    /// JSButton: Set image for all states.
+    public func setImageForAllStates(_ image: UIImage) {
+        states.forEach { self.setImage(image, for: $0) }
+    }
+    
+    /// JSButton: Set title color for all states.
+    public func setTitleColorForAllStates(_ color: UIColor) {
+        states.forEach { self.setTitleColor(color, for: $0) }
+    }
+    
+    /// JSButton: Set title for all states.
+    public func setTitleForAllStates(_ title: String) {
+        states.forEach { self.setTitle(title, for: $0) }
+    }
 }
 
