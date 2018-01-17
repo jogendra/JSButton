@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JSButton'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A fully customisable swift subclass on UIButton which allows you to create beautiful buttons using storyboard.'
 
 # This description is used to generate tags and improve search results.
