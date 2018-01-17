@@ -69,6 +69,8 @@ src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttonclass.png' wi
 
 <img
 src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttondesignable.png' width='360' alt='Attributes inspector'>
+<img
+src='https://github.com/imjog/JSButton/blob/master/Example/jsbutton1.0.0-features.png' width='360' alt='Attributes inspector'>
 
 ## Author
 
