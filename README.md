@@ -89,4 +89,4 @@ Jogendra Singh, jogendra.singh.jog@gmail.com
 
 ## License
 
-JSButton is available under the MIT license. See the LICENSE file for more info.
+JSButton is available under the MIT license. See the [LICENSE](https://github.com/imjog/JSButton/blob/master/LICENSE) file for more info.
