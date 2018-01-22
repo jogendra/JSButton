@@ -72,6 +72,13 @@ src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttondesignable.pn
 <img
 src='https://github.com/imjog/JSButton/blob/master/Example/jsbutton1.0.0-features.png' width='360' alt='Attributes inspector'>
 
+### Add action to button
+```swift
+yourButton.action {
+  print("Button Pressed!")
+}
+```
+
 ## Author
 
 Jogendra Singh, jogendra.singh.jog@gmail.com
