@@ -73,6 +73,7 @@ src='https://github.com/imjog/JSButton/blob/master/Example/jsbuttondesignable.pn
 src='https://github.com/imjog/JSButton/blob/master/Example/jsbutton1.0.0-features.png' width='360' alt='Attributes inspector'>
 
 ### Add action to button
+To add action to your button just use `.action` you dont have to add Target and then handler function.
 ```swift
 yourButton.action {
   print("Button Pressed!")
