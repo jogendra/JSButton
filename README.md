@@ -24,8 +24,8 @@ $ open JSButton.xcworkspace
 
 ## Requirements
 - iOS 8.3+
-- Xcode 7+
-- Swift 3
+- Xcode 9.0
+- Swift 4.0
 
 ## Installation
 
