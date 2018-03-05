@@ -82,7 +82,7 @@ yourButton.action {
 
 ## Author
 
-Jogendra Singh, jogendra.singh.jog@gmail.com
+Jogendra Singh, jogendra.iitbhu@gmail.com
 
 ## What's next
 
