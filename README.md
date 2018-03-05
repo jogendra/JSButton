@@ -93,7 +93,7 @@ Jogendra Singh, jogendra.iitbhu@gmail.com
 - If you found a **bug**, open an **issue**
 - If you have a **feature request**, open an **issue**
 - If you want to **contribute**, submit a **pull request**
-- If you have any issue or want **help**, please drop me a mail on jogendra.singh.jog@gmail.com
+- If you have any issue or want **help**, please drop me a mail on jogendra.iitbhu@gmail.com
 
 ## License
 
